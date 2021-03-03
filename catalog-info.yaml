@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Example
+  description: A description
+  annotations: 
+    github.com/project-slug: omarvides/test-backspace
+    backstage.io/source-ref: "https://github.com/omarvides/test-backspace"
+    backstage.io/techdocs-ref: url:https://github.com/omarvides/test-backspace
+    backstage.io/github-actions-id: https://github.com/omarvides/test-backspace
+spec:
+  type: service
+  lifecycle: experimental
+  owner: none
